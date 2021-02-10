@@ -144,6 +144,8 @@ function articleMaker({
 	articleDate.classList.add('date');
 	articleSpan.classList.add('expandButton');
 
+	expandBtn.textContent = '+';
+
 	articleTitle.textContent = title;
 	articleDate.textContent = date;
 	articlePara1.textContent = firstParagraph;
